@@ -26,5 +26,5 @@ if ($albums.Length -ge 1) {
 
 $json = $json | ConvertTo-Json -Depth 4
 
-Set-Content -Path ".\data.json" -Value $json
+Set-Content -Path ".\data.json" -Value "[$($json)]"
 
