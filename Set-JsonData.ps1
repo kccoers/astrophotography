@@ -1,6 +1,4 @@
-$json = @{
-    "albums" = @()
-}
+$json = @()
 
 $albums = Get-ChildItem -Path ".\albums"
 
@@ -20,12 +18,9 @@ if ($albums.Length -ge 1) {
 
         }
 
-        $json.albums += $album_info
+        $json += $album_info
 
     }
-
-} else {
-    # Write-Host "No Albums Found"
 
 }
 

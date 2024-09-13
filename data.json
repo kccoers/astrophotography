@@ -1,50 +1,46 @@
 {
-  "albums": [
+  "albumName": "Naples Camping Trip",
+  "albumDescription": "Naples Camping Trip",
+  "albumLocation": {
+    "city": "Naples",
+    "state": "TX",
+    "country": "USA"
+  },
+  "albumUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip",
+  "albumDate": "2023-10-14",
+  "photos": [
     {
-      "albumName": "Naples Camping Trip",
-      "albumDescription": "Naples Camping Trip",
-      "albumLocation": {
-        "city": "Naples",
-        "state": "TX",
-        "country": "USA"
-      },
-      "albumUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip",
-      "albumDate": "2023-10-14",
-      "photos": [
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/albumInfo.json"
-        },
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/BigDipper_LittleDipper_Naples_20231014.png"
-        },
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/Jupiter_Pleiades_TaurusPartial_Naples_20231014.png"
-        },
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231014_031646707.png"
-        },
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231014_031911132.png"
-        },
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231014_033500853.png"
-        },
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231015_005423114.png"
-        },
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231015_005536405.png"
-        },
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231015_013620508.png"
-        },
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231015_034208750.png"
-        },
-        {
-          "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231015_034220990.png"
-        }
-      ]
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/albumInfo.json"
+    },
+    {
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/BigDipper_LittleDipper_Naples_20231014.png"
+    },
+    {
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/Jupiter_Pleiades_TaurusPartial_Naples_20231014.png"
+    },
+    {
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231014_031646707.png"
+    },
+    {
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231014_031911132.png"
+    },
+    {
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231014_033500853.png"
+    },
+    {
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231015_005423114.png"
+    },
+    {
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231015_005536405.png"
+    },
+    {
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231015_013620508.png"
+    },
+    {
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231015_034208750.png"
+    },
+    {
+      "photoUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip/NightSky_Naples_20231015_034220990.png"
     }
   ]
 }
