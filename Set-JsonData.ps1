@@ -24,6 +24,9 @@ if ($albums.Length -ge 1) {
 
         }
 
+        $album_cover = $album_info.photos | Get-Random
+        $album_info.albumCover = $album_cover.photoUrl
+
         $json += $album_info
 
     }
