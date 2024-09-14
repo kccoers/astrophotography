@@ -1,4 +1,5 @@
 {
+    "id": "",
     "albumName": "Naples Camping Trip",
     "albumDescription": "Naples Camping Trip",
     "albumLocation": {
@@ -7,6 +8,7 @@
         "country": "USA"
     },
     "albumUrl": "https://kccoers.github.io/astrophotography/albums/20231014-Naples-Camping-Trip",
+    "albumCover": "",
     "albumDate": "2023-10-14",
     "photos": []
 }

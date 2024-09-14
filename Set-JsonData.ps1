@@ -4,8 +4,14 @@ $albums = Get-ChildItem -Path ".\albums"
 
 if ($albums.Length -ge 1) {
 
+    $albums_counter = 0
+
     foreach($album in $albums) {
+        $albums_counter += 1
+
         $album_info = Get-Content -Path "$($album.FullName)\albumInfo.json" | ConvertFrom-Json
+
+        $album_info.id = $albums_counter
 
         $photos = Get-ChildItem -Path $album.FullName
 
