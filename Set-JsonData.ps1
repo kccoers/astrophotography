@@ -15,8 +15,11 @@ if ($albums.Length -ge 1) {
 
         $photos = Get-ChildItem -Path $album.FullName
 
+        $photos_counter = 0
+        
         foreach ($photo in $photos) {
             $photo_info = @{
+                "id" = ($photos_counter += 1)
                 "photoUrl" = "$($album_info.albumUrl)/$($photo.Name)"
             }
 
