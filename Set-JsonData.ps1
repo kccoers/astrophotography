@@ -20,8 +20,17 @@ if ($albums.Length -ge 1) {
         foreach ($photo in $photos) {
             if ($photo.Name.EndsWith("albumInfo.json")) { continue }
 
-            $photo_info = @{
-                "id" = ($photos_counter += 1)
+            $photo_wia_info = New-Object -ComObject Wia.ImageFile
+
+            $photo_wia_info.loadFile("$($album.FullName)/$($photo.Name)")
+
+            if     ($photo_wia_info.width -gt $photo_wia_info.height) { $photo_orientation = "landscape" }
+            elseif ($photo_wia_info.width -eq $photo_wia_info.height) { $photo_orientation = "square" }
+            else { $photo_orientation = "portrait" }
+
+            $photo_info = [Ordered]@{
+                "id" = $photos_counter += 1
+                "orientation" = $photo_orientation
                 "photoUrl" = "$($album_info.albumUrl)/$($photo.Name)"
             }
 
@@ -29,7 +38,7 @@ if ($albums.Length -ge 1) {
 
         }
 
-        $album_cover = $album_info.photos | Get-Random
+        $album_cover = $album_info.photos | Where-Object { $_.orientation -eq "landscape" } | Get-Random
         $album_info.albumCover = $album_cover.photoUrl
 
         $json += $album_info
@@ -37,6 +46,7 @@ if ($albums.Length -ge 1) {
     }
 
 }
+
 
 $json = $json | ConvertTo-Json -Depth 4
 
